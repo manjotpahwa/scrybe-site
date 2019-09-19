@@ -22,9 +22,9 @@ $email_address = $_REQUEST['email'] ;
 echo 'Email address from only request' . $email_address;
 
 // If the user tries to access this script directly, redirect them to the contact form,
-if (!isset($_POST['email'])) {
+/*if (!isset($_POST['email'])) {
 header( "Location: $contact_page" );
-}
+}*/
 
 // If we passed all previous tests, send the email then redirect to the thank you page.
 else {
