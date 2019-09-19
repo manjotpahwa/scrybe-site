@@ -30,6 +30,7 @@ header( "Location: $contact_page" );
 else {
 
 	mail( "$webmaster_email", "Contact Form Results", $_POST["email"]);
+  header("Location: thank_you.html")
 
 }
 ?>
