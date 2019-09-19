@@ -11,10 +11,10 @@ $contact_page = "contact.html";
 This next bit loads the form field data into variables.
 If you add a form field, you will need to add it here.
 */
-$email_address = $_REQUEST['email'] ;
+$email_address = $_POST['email'] ;
 
 // If the user tries to access this script directly, redirect them to the contact form,
-if (!isset($_REQUEST['email'])) {
+if (!isset($_POST['email'])) {
 header( "Location: $contact_page" );
 }
 
