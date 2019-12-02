@@ -122,7 +122,6 @@
 
 
 .solution{
-
   &__img{
     @media(min-width: 1200px){
       position: relative;
@@ -132,7 +131,9 @@
 
   &__content{
     // max-width: 460px;
-
+    h2{
+      font-family: "Trebuchet MS"
+    }
     @media(min-width: 1200px){
       padding-left: 30px;
       padding-right: 45px;
